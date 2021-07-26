@@ -1,0 +1,287 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'open sans'; /*Имя шрифта*/
+  src: "assets/img/OpenSans-Bold.png" format("truetype"); /*Путь к фалу*/
+  font-weight: 500; /*Насыщенность*/
+  font-style: italic; /*Стиль*/
+}
+
+.header {
+	height: 177px;
+	font-size: 0.8em;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+	position: relative;
+}
+
+.main, .site_content, .footer {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	background-color: white;
+	height: 100px;
+	width: 1865px;
+	top: 0;
+	left: 0;
+	opacity: 0.7;
+	position: absolute;
+}
+
+
+.header_text h1 {
+	font: normal 400% 'century gothic', arial, sans-serif;
+	margin-left: 675px;
+	margin-top: 50px;
+	text-decoration: none;
+	color: #0000CD;
+}
+
+.logo_text {
+	width: 900px;
+	height: 0px;
+	top: 0;
+	left: 0;
+}
+
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+	font: normal 200% 'century gothic', arial, sans-serif;
+	margin-left: 150px;
+	margin-top: 23px;
+	text-decoration: none;
+	color: black;
+}
+
+.logo_text2 h1, .logo_text2 h1 a, .logo_text2 h1 a:hover {
+	font: normal 200% 'century gothic', arial, sans-serif;
+	margin-left: 225px;
+	margin-top: 0px;
+	text-decoration: none;
+	color: red;
+}
+
+.logo_text3 h1 {
+	font: normal 400% 'century gothic', arial, sans-serif;
+	margin-left: 825px;
+	margin-top: 400px;
+	text-decoration: none;
+	color: white;
+}
+
+.menu {
+	width: 900px;
+	height: 46px;
+	top: 0;
+	left: 0;
+	margin-left: 1200px;
+	margin-top: 54px;
+	position: absolute;
+	opacity: 1;
+}
+
+ul.menu {
+	float: right;
+}
+
+ul.menu li {
+	float: left ;
+	padding: 0 0 0 9px;
+	list-style: none;
+	margin: 1px 2px 0 0;
+}
+
+ul.menu li a {
+	font: normal 150% 'trebuchet ms', sans-serif;
+	display: block;
+	height: 20px;
+	padding: 6px 35px 5px 28px;
+	color: grey;
+	text-decoration: none;
+}
+
+ul.menu li a:hover {
+	color: #2F4F4F;
+}
+
+.some_films  {
+	float: left;
+	margin-left: 250px;
+	margin-top:0px;
+}
+
+.films_text h1 {
+	font: normal 300% 'century gothic', arial, sans-serif;
+	margin-left: 475px;
+	margin-top: 950px;
+	text-decoration: none;
+	color: #0000CD;
+}
+
+.some_films2  {
+	float: left;
+	margin-left: 250px;
+	margin-top: 0px;
+}
+
+.films_text2 h1 {
+	font: normal 300% 'century gothic', arial, sans-serif;
+	margin-left: 475px;
+	margin-top: 250px;
+	text-decoration: none;
+	color: #0000CD;
+}
+
+.some_films img {
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+	width: 100%;
+}
+
+.some_films2 img {
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+	width: 100%;
+}
+
+.footer {
+	background-color: black;
+	height: 200px;
+	width: 1865px;
+	padding: 28px 0px 5px 0px;
+	color: black;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 300px;
+	min-width: 900px;
+	opacity: 0.8;
+}
+
+.footer_sub {
+	float: left;
+}
+
+.footer_sub2 {
+	float: left;
+}
+
+.footer_sub3 {
+	float: left;
+}
+
+.footer_sub h1 {
+	color: grey;
+	text-decoration: none;
+	margin-left: 300px;
+
+	font: normal 200% 'century gothic', arial, sans-serif;
+	margin-top: 23px;
+	
+}
+
+.footer_sub a {
+	color: grey;
+	text-decoration: none;
+	margin-left: 340px;
+
+}
+
+.footer_sub a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer_sub p {
+	padding: 0 0 10px 0;
+}
+
+
+.footer_sub2 {
+	float: left;
+}
+
+
+.footer_sub2 h1 {
+	color: grey;
+	text-decoration: none;
+	margin-left: 100px;
+
+	font: normal 200% 'century gothic', arial, sans-serif;
+	margin-top: 23px;
+}
+
+.footer_sub2 a {
+	color: grey;
+	text-decoration: none;
+	margin-left: 140px;
+	margin-top: 0px;
+}
+
+.footer_sub2 a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer_sub2 p {
+	padding: 0 0 10px 0;
+}
+
+.footer_sub3 h1 {
+	color: grey;
+	text-decoration: none;
+	margin-left: 100px;
+
+	font: normal 200% 'century gothic', arial, sans-serif;
+	margin-top: 23px;
+}
+
+.footer_sub3 a {
+	color: grey;
+	text-decoration: none;
+	margin-left: 140px;
+	margin-top: 0px;
+}
+
+.footer_sub3 a:hover {
+	color: #fff;
+}
+
+.footer_sub3 p {
+	padding: 0 0 10px 0;
+}
+
+.icons {
+ float: left;
+ margin-left: 150px;
+ margin-top: 35px;
+}
+
+.icons a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  transition: all .5s ease;
+  margin-left: 50px;
+}
+.icons a:hover {
+  color: white;
+}
